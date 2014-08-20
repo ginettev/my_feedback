@@ -1,0 +1,5 @@
+<h2>Received Feedbacks</h2>
+<%= render :partial => 'feedback', :collection => @user.received_feedbacks %>
+
+<h2>Given Feedbacks</h2>
+<%= render :partial => 'feedback', :collection => @user.given_feedbacks %>
